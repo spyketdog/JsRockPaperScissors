@@ -36,13 +36,13 @@ function checker(input) {
 
     switch (choicesObject[input][computerChoice]) {
         case 'win':
-        result = "You Win";
+        result = "You Win!!!";
         break;
         case 'lose':
-        result ="You lose"
+        result ="You lose!!! Aahhh!!!"
         break;
         default:
-        result = "DRAW"
+        result = "DRAW!!!"
         break;
     }
             console.log(result);
